@@ -5,7 +5,7 @@ RUN yum upgrade -y
 RUN yum install vim net-tools telnet -y
 
 RUN mkdir -p /code
-ADD ojs-3.1.1-2 /code
+ADD ojs-2.4.8-2 /code
 RUN mkdir /files
  
 
